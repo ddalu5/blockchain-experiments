@@ -1,0 +1,1 @@
+VALID_SIGNATURE = 'l337'
