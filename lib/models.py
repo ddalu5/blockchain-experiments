@@ -5,7 +5,7 @@ from settings import VALID_SIGNATURE
 
 class Block:
 
-    def __init__(self, block_id, data, prev_hash=VALID_SIGNATURE+('0'*124)):
+    def __init__(self, block_id, data, prev_hash):
         self.__block_id = block_id
         self.__data = data
         self.__prev_hash = prev_hash
